@@ -83,6 +83,8 @@ function mergDeep(a, b) {
     }
 }
 
+
+// Json.stringify for better readability 
 console.log("before merge :  ");
 const stringBeforeA = JSON.stringify(a,null,2);
 console.log("Object a : " + stringBeforeA);
